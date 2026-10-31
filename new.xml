@@ -1,0 +1,6 @@
+<krpano>
+    <action name="startup" autorun="onstart">
+        <!-- URL-er &id= parameter dhore direct tomar GitHub page-e redirect korbe -->
+        js(window.location.href = 'https://rakib420m.github.io/hudai/' + get(urlparams.id) + '.html');
+    </action>
+</krpano>
